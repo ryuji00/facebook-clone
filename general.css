@@ -1,0 +1,54 @@
+p {
+    font-family:Helvetica, sans-serif,  Arial;
+    margin: 0;
+}
+body {
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-left: 150px;
+    background-color: rgb(246, 246, 246);
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+@media (max-width: 1085px) {
+    main {
+     grid-template-columns: 1fr;
+    }
+    .logoandtext {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-right: 250px;
+        white-space: nowrap;
+    }
+    .login-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-right: 200px;
+        margin-left: 50px;
+    }
+
+    .account-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-right: 250px;
+        margin-left: 75px;
+    }
+   
+   
+   
+}
+

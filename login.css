@@ -1,0 +1,77 @@
+.login-container {
+    margin-top: 30px;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    border: solid 1px rgb(184, 182, 182);
+    width: 400px;
+    text-align: center;
+    border-radius: 8px;
+    background-color: white;
+}
+
+
+
+.email, .password {
+    width: 350px;
+    height: 60px;
+    margin-bottom: 12px;
+    border-radius: 6px;
+    border: solid 1px rgb(184, 182, 182);
+
+}
+
+.email::placeholder, .password::placeholder {
+    color: rgb(148, 146, 146);
+    font-family: Helvetica, sans-serif, Arial;
+    font-size: 16px;
+    padding-left: 15px;
+}
+
+.log-in-button {
+    border-radius: 6px;
+    border: none;
+    background-color: #1877f2;
+    width: 355px;
+    height: 50px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.log-in-button:hover {
+    background-color: #176ad5;
+    cursor: pointer;
+
+}
+
+.forgot-password {
+    color: #1877f2;
+    font-size: 14px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.horizontal-line-container {
+    margin-bottom: 20px;
+}
+.horizontal-line {
+    opacity: 0.6;
+    width: 355px;
+}
+
+.create-new-account-button {
+    border-radius: 6px;
+    border: none;
+    background-color: #04ba10;
+    width: 200px;
+    height: 50px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+.create-new-account-button:hover {
+    cursor: pointer;
+    background-color: #019e0b;
+    
+}
